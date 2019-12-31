@@ -95,14 +95,14 @@
            <item row="0" column="0">
             <widget class="QLabel" name="label_10">
              <property name="text">
-              <string>Benzerlik:</string>
+              <string>Similarity:</string>
              </property>
             </widget>
            </item>
            <item row="1" column="0" colspan="2">
             <widget class="QLabel" name="label_7">
              <property name="text">
-              <string>Toplam parmak izi sayısı:</string>
+              <string>Total fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -149,7 +149,7 @@
            <item row="0" column="0">
             <widget class="QLabel" name="label_8">
              <property name="text">
-              <string>Seçilen parmak izi sayısı:</string>
+              <string>Selected fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -179,7 +179,7 @@
            <item row="1" column="0">
             <widget class="QLabel" name="label_9">
              <property name="text">
-              <string>Eşleşen parmak izi sayısı:</string>
+              <string>Matched fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -232,7 +232,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>Döküman</string>
+            <string>Document</string>
            </property>
           </widget>
          </item>
@@ -246,7 +246,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>İskelet</string>
+            <string>Skeleton</string>
            </property>
           </widget>
          </item>
@@ -375,7 +375,7 @@
 }</string>
        </property>
        <property name="text">
-        <string>Dökümanı varsayılan programda açmak için tıklayın.</string>
+        <string>Click here to open the file in default program.</string>
        </property>
       </widget>
      </item>
@@ -435,7 +435,7 @@
            <item row="0" column="0">
             <widget class="QLabel" name="label_11">
              <property name="text">
-              <string>Benzerlik:</string>
+              <string>Similarity:</string>
              </property>
             </widget>
            </item>
@@ -452,7 +452,7 @@
            <item row="1" column="0" colspan="2">
             <widget class="QLabel" name="label_12">
              <property name="text">
-              <string>Toplam parmak izi sayısı:</string>
+              <string>Total fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -483,7 +483,7 @@
            <item row="0" column="0">
             <widget class="QLabel" name="label_13">
              <property name="text">
-              <string>Seçilen parmak izi sayısı:</string>
+              <string>Selected fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -513,7 +513,7 @@
            <item row="1" column="0">
             <widget class="QLabel" name="label_14">
              <property name="text">
-              <string>Eşleşen parmak izi sayısı:</string>
+              <string>Matched fingerprints:</string>
              </property>
             </widget>
            </item>
@@ -566,7 +566,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>Döküman</string>
+            <string>Document</string>
            </property>
           </widget>
          </item>
@@ -580,7 +580,7 @@
 }</string>
            </property>
            <property name="text">
-            <string>İskelet</string>
+            <string>Skeleton</string>
            </property>
           </widget>
          </item>
@@ -709,7 +709,7 @@
 }</string>
        </property>
        <property name="text">
-        <string>Dökümanı varsayılan programda açmak için tıklayın.</string>
+        <string>Click here to open the file in default program.</string>
        </property>
       </widget>
      </item>

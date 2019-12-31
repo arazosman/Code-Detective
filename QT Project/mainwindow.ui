@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Kod Dedektifi</string>
+   <string>Code Detective</string>
   </property>
   <property name="windowIcon">
    <iconset resource="files.qrc">
@@ -91,7 +91,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Kaynak konum:</string>
+       <string>Source folder:</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_w">
@@ -107,7 +107,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Pencere boyutu:</string>
+       <string>Window size:</string>
       </property>
      </widget>
      <widget class="QSlider" name="slider_k">
@@ -151,7 +151,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>(Detaylar için rehbere göz atın.)</string>
+       <string>(Check the guide for details.)</string>
       </property>
      </widget>
      <widget class="QSlider" name="slider_w">
@@ -187,7 +187,7 @@
        <rect>
         <x>20</x>
         <y>10</y>
-        <width>111</width>
+        <width>121</width>
         <height>21</height>
        </rect>
       </property>
@@ -195,7 +195,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Döküman tipi:</string>
+       <string>Doc. type:</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radio_Other">
@@ -266,7 +266,7 @@
 }</string>
       </property>
       <property name="text">
-       <string>Seç...</string>
+       <string>Select...</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_6">
@@ -282,7 +282,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>(Detaylar için rehbere göz atın.)</string>
+       <string>(Check the guide for details.)</string>
       </property>
      </widget>
      <widget class="QTextBrowser" name="textBrowser">
@@ -315,7 +315,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Kaynak kodlar:</string>
+       <string>Source codes:</string>
       </property>
      </widget>
      <widget class="QCheckBox" name="checkFolderMode">
@@ -344,7 +344,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Parmak izi boyutu:</string>
+       <string>Fingerprint size:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushStart">
@@ -367,7 +367,7 @@
 }</string>
       </property>
       <property name="text">
-       <string>Hesapla</string>
+       <string>Start</string>
       </property>
      </widget>
      <widget class="QComboBox" name="comboBox">
@@ -436,7 +436,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>Klasör modu:</string>
+       <string>Folder mode:</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -452,7 +452,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>İnce ayarlar:</string>
+       <string>Tweaks:</string>
       </property>
      </widget>
      <widget class="QLabel" name="label">
@@ -668,10 +668,10 @@ p, li { white-space: pre-wrap; }
      <normaloff>:/images/images/dedective.png</normaloff>:/images/images/dedective.png</iconset>
    </property>
    <property name="text">
-    <string>Dedektif</string>
+    <string>Detective</string>
    </property>
    <property name="iconText">
-    <string>Dedektif</string>
+    <string>Detective</string>
    </property>
    <property name="font">
     <font/>
@@ -683,7 +683,7 @@ p, li { white-space: pre-wrap; }
      <normaloff>:/images/images/help.png</normaloff>:/images/images/help.png</iconset>
    </property>
    <property name="text">
-    <string>Rehber</string>
+    <string>Guide</string>
    </property>
   </action>
   <action name="actionHakk_nda">
@@ -693,7 +693,7 @@ p, li { white-space: pre-wrap; }
     </iconset>
    </property>
    <property name="text">
-    <string>Hakkında</string>
+    <string>About</string>
    </property>
   </action>
  </widget>

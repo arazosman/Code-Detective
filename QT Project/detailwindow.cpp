@@ -30,8 +30,8 @@ DetailWindow::~DetailWindow()
 // A function which fills details of widgets in the window.
 void DetailWindow::fillDetails(const QStringList &extension)
 {
-    this->setWindowTitle("Detaylar - " + QString::fromStdString(code1.fileName) + " vs " +
-                         QString::fromStdString(code2.fileName));
+    this->setWindowTitle(QString::fromStdString(code1.fileName) + " vs " +
+                         QString::fromStdString(code2.fileName) + " - Code Detective");
 
     ui->code1_label->setText(QString::fromStdString(code1.fileName));
     ui->code2_label->setText(QString::fromStdString(code2.fileName));

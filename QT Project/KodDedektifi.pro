@@ -51,7 +51,6 @@ HEADERS += \
         winnowing.h
 
 FORMS += \
-        codewindow.ui \
         detailwindow.ui \
         mainwindow.ui \
         resultwindow.ui

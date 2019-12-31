@@ -31,7 +31,7 @@ void MainWindow::on_pushDir_clicked()
         currExtension = ui->comboBox->currentText().toStdString();
 
     // getting source directory from the user
-    QString dir = QFileDialog::getExistingDirectory(this, tr("Klasör Seç"), "/home",
+    QString dir = QFileDialog::getExistingDirectory(this, tr("Select Folder"), "/home",
                                                     QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
 
     if (dir.size() > 0)
@@ -71,7 +71,7 @@ void MainWindow::on_pushStart_clicked()
     // it must be some files to process calculations
     if (codeFileList.size() > 0)
     {
-        ui->pushStart->setText("İşleniyor...");
+        ui->pushStart->setText("Processing...");
         ui->pushStart->setStyleSheet("QPushButton { color: white; background: #9b59b6; }");
         ui->pushStart->repaint();
 

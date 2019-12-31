@@ -43,20 +43,20 @@ ResultWindow::ResultWindow(std::vector<std::string> &codeFileList, QStringList &
     fillTable(codes, similarities); // filling the result table
 
     // information message for users
-    std::string message = std::to_string(size) + " adet döküman için " + std::to_string(size*(size-1)/2)
-            + " tane karşılaştırma " + std::to_string(sec) + " saniyede işlendi.";
+    std::string message = std::to_string(size*(size-1)/2) + " comparisions performed over " + std::to_string(size) +
+                           " documents in " + std::to_string(sec) + " seconds.";
 
     std::string errFiles;
 
     if (invalidCodes.size() > 0) // if there is an invalid code
     {
-        message += "\n\n" + std::to_string(invalidCodes.size()) + " adet dökümanın işlenmesi sırasında hata oluştu."
-                   " (Muhtemel hata nedenleri için rehbere göz atın.)\n";
+        message += "\n\n" + std::to_string(invalidCodes.size()) + " documents could not be processed."
+                   " (Check out the Guide to check potential reasons.)\n";
 
         errFiles = getInvalidFiles(invalidCodes);
     }
 
-    QMessageBox messageBox(QMessageBox::Information, "Bilgi",
+    QMessageBox messageBox(QMessageBox::Information, "Info",
                             QObject::tr(message.c_str()),
                             QMessageBox::NoButton,
                             QDesktopWidget().screen(), Qt::FramelessWindowHint);
@@ -78,7 +78,7 @@ void ResultWindow::fillTable(std::vector <Code> &codes, std::vector <CodePair> &
 
     // setting the header labels
     ui->tableCodes->setHorizontalHeaderLabels(QStringList()
-                                              << "Sıra" << "1. Döküman" << "Benzerlik" << "2. Döküman" << "Benzerlik");
+                    << "Order" << "Document #1" << "Similarity" << "Document #1" << "Similarity");
 
     // creating and initializing a table item instance
     QTableWidgetItem *tableItem = new QTableWidgetItem();
