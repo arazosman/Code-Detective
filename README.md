@@ -9,7 +9,7 @@ Code Detective extracts and processes syntaxes of C source codes. Therefore all 
 ## Screenshots
 Code Detective provides a useful GUI to end-users.
 
-- Main Page
+- Main Page:
 
   <img src="Screenshots/main.png" width="400px">
 
