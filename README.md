@@ -4,7 +4,7 @@ Code Detective is a software plagiarism detection tool based on MOSS (Measure of
 ## What Code Detective Can Do?
 Code Detective detects plagiarisms in seconds for programming source codes such as C, C++, C#, Java and Pyhton and for documents such as TXT and PDF. Code Detective checks plagiarisms for files that given by the user, it doesn't search over internet to check plagiarims.
 
-Code Detective extracts and processes syntaxes of C source codes. Therefore all of the variable names will be same, such as function names will be same, loop types will be same, conditional statement types will be same etc. For other source code types, there is no syntax processing for current version of Code Detective.
+Code Detective extracts and processes syntaxes of C source codes. Therefore all of the variable names will be same, such as function names will be same, loop types will be same, conditional statement types will be same etc. For other source code types, there is no syntax processing for the current version of Code Detective.
 
 ## Screenshots
 Code Detective provides a useful GUI to end-users.
