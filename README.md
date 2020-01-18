@@ -17,9 +17,13 @@ Code Detective provides a useful GUI to end-users.
 
   <img src="Screenshots/results.png" width="800px">
   
-- Details Page: 
+- Code Details: 
 
-  <img src="Screenshots/comparisons.png" width="800px">
+  <img src="Screenshots/details.png" width="800px">
+
+- Code Skeletons: 
+
+  <img src="Screenshots/skeleton.png" width="800px">
 
 ## How Code Detective Works?
 Please check our paper **[here](Paper.pdf)** to understand how Code Detective works.
