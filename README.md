@@ -11,19 +11,27 @@ Code Detective provides a useful GUI to end-users.
 
 - Main Page:
 
+<p align="center">
   <img src="Screenshots/main.png" width="400px">
+</p>
 
 - Results Page: 
 
-  <img src="Screenshots/results.png" width="800px">
-  
+<p align="center">
+  <img src="Screenshots/results.png" width="600px">
+</p>
+
 - Code Details: 
 
+<p align="center">
   <img src="Screenshots/details.png" width="800px">
+</p>
 
 - Code Skeletons: 
 
+<p align="center">
   <img src="Screenshots/skeleton.png" width="800px">
+</p>
 
 ## How Code Detective Works?
 Please check our paper **[here](Paper.pdf)** to understand how Code Detective works.
