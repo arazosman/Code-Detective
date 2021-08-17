@@ -1,5 +1,5 @@
 # Code Detective
-Code Detective is a software plagiarism detection tool based on MOSS (Measure of Software Similarity) method of Stanford University. It written in C++ and designed with QT Creator. Contributions made by Osman Araz and Muhammet Çeneli, respect to their 1<sup>st</sup> graduation project of Yıdız Technical University - Computer Engineering department.
+Code Detective is a software plagiarism detection tool based on MOSS (Measure of Software Similarity) method of Stanford University. It is written in C++ and designed with QT Creator. Contributions made by Osman Araz and Muhammet Çeneli, respect to their 1<sup>st</sup> graduation project of Yıdız Technical University - Computer Engineering department.
 
 ## What Code Detective Can Do?
 Code Detective detects plagiarisms in seconds for programming source codes such as C, C++, C#, Java and Pyhton and for documents such as TXT and PDF. Code Detective checks plagiarisms for files that given by the user, it doesn't search over internet to check plagiarims.
